@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Activity } from 'lucide-react';
+import { ExternalLink, Activity } from 'lucide-react';
+
+const GithubIcon = ({ size }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width={size || 24} height={size || 24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.02c3.12-.34 6.4-1.51 6.4-6.98 0-1.5-.5-2.7-1.3-3.6.1-.3.6-1.7-.1-3.5 0 0-1-.3-3.3 1.2a11.5 11.5 0 0 0-6 0C7.3 1.5 6.3 1.8 6.3 1.8c-.7 1.8-.2 3.2-.1 3.5-.8.9-1.3 2.1-1.3 3.6 0 5.4 3.2 6.6 6.3 7A4.8 4.8 0 0 0 8 18v4"></path></svg>
+);
 import './Projects.css';
 
 export default function Projects() {
@@ -55,7 +59,7 @@ export default function Projects() {
                   <Activity className="project-icon" />
                   <div className="project-links">
                     <a href={project.github} target="_blank" rel="noreferrer" aria-label="GitHub Link">
-                      <Github size={20} />
+                      <GithubIcon size={20} />
                     </a>
                   </div>
                 </div>
