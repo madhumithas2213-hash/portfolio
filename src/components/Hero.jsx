@@ -57,7 +57,7 @@ export default function Hero() {
             <a href="#projects" className="btn btn-primary cta-btn">
               View Projects <ArrowRight size={18} />
             </a>
-            <a href="/resume.pdf" className="btn btn-outline cta-btn" download>
+            <a href="/Madhumitha.Resume.pdf" className="btn btn-outline cta-btn" download>
               Download Resume <Download size={18} />
             </a>
           </motion.div>
