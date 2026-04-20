@@ -38,7 +38,7 @@ export default function Contact() {
               </li>
               <li>
                 <div className="info-icon"><MapPin size={20} /></div>
-                <span>Chennai, India</span>
+                <span>Tirupur, Tamil Nadu</span>
               </li>
             </ul>
 

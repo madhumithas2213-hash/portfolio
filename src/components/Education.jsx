@@ -6,7 +6,7 @@ export default function Education() {
   const experiences = [
     {
       type: 'education',
-      title: 'Your Degree Name',
+      title: 'B.E - Computer Science and Engineering',
       subtitle: 'Your College Name',
       date: 'Currently Pursuing',
       icon: <GraduationCap />
