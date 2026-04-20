@@ -34,7 +34,7 @@ export default function Contact() {
               </li>
               <li>
                 <div className="info-icon"><Phone size={20} /></div>
-                <span>+91 98765 43210</span>
+                <span>+91 76038 52702</span>
               </li>
               <li>
                 <div className="info-icon"><MapPin size={20} /></div>
@@ -43,10 +43,10 @@ export default function Contact() {
             </ul>
 
             <div className="social-links">
-              <a href="https://github.com/madhumitha" target="_blank" rel="noreferrer" className="social-icon">
+              <a href="https://github.com/madhumithas2213-hash" target="_blank" rel="noreferrer" className="social-icon">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com/in/madhumitha" target="_blank" rel="noreferrer" className="social-icon">
+              <a href="https://www.linkedin.com/in/madhumitha-s-ab9b47329" target="_blank" rel="noreferrer" className="social-icon">
                 <Linkedin size={24} />
               </a>
             </div>
